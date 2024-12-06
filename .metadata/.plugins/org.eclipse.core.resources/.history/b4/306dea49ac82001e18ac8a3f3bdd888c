@@ -1,0 +1,35 @@
+package class2;
+
+public class Q3 {
+
+	public static void main(String[] args) {
+		// Take 3 numbers in 3 variables and 
+		//display the highest number. (use more than1 if else condition)
+       
+		int x = 22;
+		int y = 33;
+		int z = 14;
+		
+		if(x>y && x>z ) {
+			System.out.println(x);
+		}
+		else
+		if(y>x && y>z){
+			System.out.println(y);
+		}
+		
+		else 
+			if(z>x && z>y ){
+				System.out.println(z);
+			}
+		
+		
+		{
+			
+		}
+		
+		
+		
+	}
+
+}

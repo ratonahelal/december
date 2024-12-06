@@ -1,0 +1,21 @@
+package class2;
+
+public class tuesday {
+
+	public static void main(String[] args) {
+		// given two numbers, find the highest number.
+
+		int a =12;
+		int b = 20;
+		
+		if(a<b) {
+		System.out.println("b is the biggest number");	
+		
+		}
+		else {
+			System.out.println("b is not the biggest number");	
+		}
+		
+	}
+
+}

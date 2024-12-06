@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="16" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-28T20:22:50 EST" name="Default suite" finished-at="2023-01-28T20:29:28 EST" duration-ms="397868">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@292b08d6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-01-28T20:22:50 EST" name="Default test" finished-at="2023-01-28T20:29:28 EST" duration-ms="397868">
+      <class name="runners.CucumberRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.CucumberRunner@292b08d6]" started-at="2023-01-28T20:22:50 EST" name="setUpClass" finished-at="2023-01-28T20:23:42 EST" duration-ms="52647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28768e25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@292b08d6]" started-at="2023-01-28T20:23:42 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T20:24:16 EST" duration-ms="33689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search with Canada Zipcode"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Depot Canada Zipcode Store Locator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@292b08d6]" started-at="2023-01-28T20:24:16 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T20:24:37 EST" duration-ms="21101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User able to view the correct url when visit the DIY Projects & Ideas page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the DIY Projects & Ideas page url"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@292b08d6]" started-at="2023-01-28T20:24:37 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T20:25:09 EST" duration-ms="31306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User able to visit the DIY Projects & Ideas page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DIY Projects & Ideas link is clickable"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@292b08d6]" started-at="2023-01-28T20:25:09 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T20:25:25 EST" duration-ms="16098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User able to get item fast"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomeDepot Search Get It Fast Free 2 days delivery Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@292b08d6]" started-at="2023-01-28T20:25:25 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T20:25:35 EST" duration-ms="9934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User able to click Home Depot Logo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Depot Logo Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@292b08d6]" started-at="2023-01-28T20:25:35 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T20:25:44 EST" duration-ms="9599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User able to look for deals in the weekly ad."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Depot Local Ad & Catalog Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@292b08d6]" started-at="2023-01-28T20:25:44 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T20:25:53 EST" duration-ms="8690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User click zoom in to make the page bigger"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Depot Local Ads & Catalog Zoom In Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@292b08d6]" started-at="2023-01-28T20:25:53 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T20:26:01 EST" duration-ms="7788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User click zoom out to make the page bigger"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Depot Local Ads & Catalog Zoom Out Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@292b08d6]" started-at="2023-01-28T20:26:01 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T20:26:12 EST" duration-ms="10800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search with NJ Zipcode"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Depot NJ Zipcode Store Locator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@292b08d6]" started-at="2023-01-28T20:26:12 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T20:27:06 EST" duration-ms="54738" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User able to get item fast"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feature: HomeDepot Search Get It Fast Next days delivery Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="browse-search-dimensions"]/div/div[1]/div/div[2]/div/div[4]/div"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f50553ce75a6a7c77d48c624cc5a0188, findElement {using=xpath, value=//*[@id="browse-search-dimensions"]/div/div[1]/div/div[2]/div/div[4]/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\raton\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63547}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63547/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f50553ce75a6a7c77d48c624cc5a0188]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="browse-search-dimensions"]/div/div[1]/div/div[2]/div/div[4]/div"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f50553ce75a6a7c77d48c624cc5a0188, findElement {using=xpath, value=//*[@id="browse-search-dimensions"]/div/div[1]/div/div[2]/div/div[4]/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\raton\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63547}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63547/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f50553ce75a6a7c77d48c624cc5a0188
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+at stepdefination.NextDayDeliveryDefinations.click_in_next_day_delivery(NextDayDeliveryDefinations.java:20)
+at ✽.Click in Next day delivery(file:///C:/Users/raton/git/thehomedepot2/src/test/resources/features/NextDayDelivery.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@292b08d6]" started-at="2023-01-28T20:27:06 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T20:27:38 EST" duration-ms="31299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User search for Heaters"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomeDepot Search Heaters Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@292b08d6]" started-at="2023-01-28T20:27:38 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T20:27:50 EST" duration-ms="12758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User able to search item"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomeDepot Search Sink Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@292b08d6]" started-at="2023-01-28T20:27:50 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T20:28:05 EST" duration-ms="14524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User able to search item"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomeDepot Search SnowBlower Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@292b08d6]" started-at="2023-01-28T20:28:05 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T20:28:21 EST" duration-ms="16179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User will see an input error message when login with invalid email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["SignIn Invalid Email"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@292b08d6]" started-at="2023-01-28T20:28:21 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T20:28:29 EST" duration-ms="7828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search with NY Zipcode"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Depot NY Zipcode Store Locator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@292b08d6]" started-at="2023-01-28T20:28:29 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T20:28:50 EST" duration-ms="20713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User able to get item fast"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomeDepot Search For Store Pick Up Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@292b08d6]" started-at="2023-01-28T20:28:50 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T20:28:58 EST" duration-ms="8755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User able to play the first video"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DIY Projects & Ideas page video is playable"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@292b08d6]" started-at="2023-01-28T20:28:58 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T20:28:59 EST" duration-ms="1115" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User able to close the video player by clicking the browser back button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DIY Projects & Ideas page video can be closed"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a data-id="diyProjectsIdeas" class="ShoppingLinks__link" href="//www.homedepot.com/c/diy_projects_and_ideas">...</a> is not clickable at point (592, 115). Other element would receive the click: <div class="overlay overlay--open" role="main">...</div>
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f50553ce75a6a7c77d48c624cc5a0188, clickElement {id=b5ebed4e-e1d9-4fad-ab58-0417e942a5c2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\raton\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63547}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63547/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f50553ce75a6a7c77d48c624cc5a0188)] -> xpath: /html//div[@id='header']//ul[@class='ShoppingLinks']//a[@href='//www.homedepot.com/c/diy_projects_and_ideas']]
+Session ID: f50553ce75a6a7c77d48c624cc5a0188]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-id="diyProjectsIdeas" class="ShoppingLinks__link" href="//www.homedepot.com/c/diy_projects_and_ideas">...</a> is not clickable at point (592, 115). Other element would receive the click: <div class="overlay overlay--open" role="main">...</div>
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f50553ce75a6a7c77d48c624cc5a0188, clickElement {id=b5ebed4e-e1d9-4fad-ab58-0417e942a5c2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\raton\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63547}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63547/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f50553ce75a6a7c77d48c624cc5a0188)] -> xpath: /html//div[@id='header']//ul[@class='ShoppingLinks']//a[@href='//www.homedepot.com/c/diy_projects_and_ideas']]
+Session ID: f50553ce75a6a7c77d48c624cc5a0188
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at jdk.internal.reflect.GeneratedMethodAccessor90.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+at stepdefination.VideoPlaybackCloseDefination.the_video_player_is_playing_a_video_in_the_diy_projects_ideas_page(VideoPlaybackCloseDefination.java:18)
+at ✽.the video player is playing a video in the DIY Projects & Ideas page(file:///C:/Users/raton/git/thehomedepot2/src/test/resources/features/VideoPlaybackClose.feature:3)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@292b08d6]" started-at="2023-01-28T20:28:59 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T20:29:02 EST" duration-ms="2201" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User able to visit the DIY Projects & Ideas page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["kitchen is clickable in the DIY Wood Projects"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a data-id="diyProjectsIdeas" class="ShoppingLinks__link" href="//www.homedepot.com/c/diy_projects_and_ideas">...</a> is not clickable at point (592, 115). Other element would receive the click: <div class="overlay overlay--open" role="main">...</div>
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f50553ce75a6a7c77d48c624cc5a0188, clickElement {id=b5ebed4e-e1d9-4fad-ab58-0417e942a5c2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\raton\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63547}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63547/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f50553ce75a6a7c77d48c624cc5a0188)] -> xpath: /html//div[@id='header']//ul[@class='ShoppingLinks']//a[@href='//www.homedepot.com/c/diy_projects_and_ideas']]
+Session ID: f50553ce75a6a7c77d48c624cc5a0188]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-id="diyProjectsIdeas" class="ShoppingLinks__link" href="//www.homedepot.com/c/diy_projects_and_ideas">...</a> is not clickable at point (592, 115). Other element would receive the click: <div class="overlay overlay--open" role="main">...</div>
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f50553ce75a6a7c77d48c624cc5a0188, clickElement {id=b5ebed4e-e1d9-4fad-ab58-0417e942a5c2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\raton\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63547}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63547/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f50553ce75a6a7c77d48c624cc5a0188)] -> xpath: /html//div[@id='header']//ul[@class='ShoppingLinks']//a[@href='//www.homedepot.com/c/diy_projects_and_ideas']]
+Session ID: f50553ce75a6a7c77d48c624cc5a0188
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at jdk.internal.reflect.GeneratedMethodAccessor90.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+at stepdefination.WoodProjectsKitchenCheckboxDefinations.diy_projects_ideas_page_is_open(WoodProjectsKitchenCheckboxDefinations.java:18)
+at ✽.DIY Projects & Ideas page is open(file:///C:/Users/raton/git/thehomedepot2/src/test/resources/features/WoodProjectsKitchenCheckbox.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@292b08d6]" started-at="2023-01-28T20:29:02 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T20:29:27 EST" duration-ms="25658" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User able to click and see recent search"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HomeDepot Recent Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Your recent searches] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Your recent searches] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at stepdefination.YourRecentSearchesDefinations.all_the_recent_search_items_appear(YourRecentSearchesDefinations.java:31)
+at ✽.all the recent search items appear(file:///C:/Users/raton/git/thehomedepot2/src/test/resources/features/YourRecentSearches.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.CucumberRunner@292b08d6]" started-at="2023-01-28T20:29:27 EST" name="tearDownClass" finished-at="2023-01-28T20:29:28 EST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.CucumberRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
